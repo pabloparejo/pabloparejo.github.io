@@ -2,18 +2,48 @@
 <html>
 <head>
     <title>Pablo Parejo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="static/css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <script src="static/js/vendor/modernizr.js"></script>
 </head>
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About me</li>
+    <header class="header">
+        <nav class='row'>
+            <ul class="no-list-style no-margin">
+                <li class='menu-item'>
+                    <a href="#">
+                        <strong>
+                            Pablo Parejo
+                        </strong>
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a href="#about">About me</a>
+                </li>
             </ul>
         </nav>
     </header>
 
+    <section class='row'>
+        <h2 class="columns small-12">FullStack developer.</h2>
+        <h4 class="columns small-12">Beach and sports lover.</h4>
+        <div class="columns small-12">
+            <blockquote>
+                <h4 class="">Are you talking to <a href="https://www.linkedin.com/in/pabloparejo">me</a>?</h4>
+            </blockquote>    
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
 
+    <script src="static/js/vendor/jquery.js"></script>
+    <script src="static/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 </html>
